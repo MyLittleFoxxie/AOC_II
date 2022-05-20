@@ -42,6 +42,12 @@
 # 
 # Top level modules:
 # 	counterR7
+# vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/placa.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module placa
+# 
+# Top level modules:
+# 	placa
 # 
 # vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -390,4 +396,4 @@
 # Break in Module testbench at C:/Coding/AOC_II/Practice_2/Processador/testbench.v line 33
 # Simulation Breakpoint: 1
 # Break in Module testbench at C:/Coding/AOC_II/Practice_2/Processador/testbench.v line 33
-# MACRO ./processador_run_msim_rtl_verilog.do PAUSED at line 19
+# MACRO ./processador_run_msim_rtl_verilog.do PAUSED at line 20

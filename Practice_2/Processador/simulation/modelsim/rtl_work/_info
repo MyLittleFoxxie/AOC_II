@@ -7,14 +7,14 @@ vcounter
 IR7K`L86ijOC=3_0_3MU7a2
 V7o1lmA`f2Xd8AE5TXj7Gb1
 Z1 dC:\Coding\AOC_II\Practice_2\Processador\simulation\modelsim
-Z2 w1652990418
+Z2 w1652994297
 Z3 8C:/Coding/AOC_II/Practice_2/Processador/main.v
 Z4 FC:/Coding/AOC_II/Practice_2/Processador/main.v
 L0 310
 Z5 OV;L;10.1d;51
 r1
 31
-Z6 !s108 1652990656.182000
+Z6 !s108 1653005915.829000
 Z7 !s107 C:/Coding/AOC_II/Practice_2/Processador/main.v|
 Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/main.v|
 Z9 o-vlog01compat -work work -O0
@@ -40,7 +40,7 @@ ncounter@r7
 !i10b 1
 !s100 K[AnnVz=2F?W1I?`ZRDN20
 !s85 0
-!s108 1652990656.401000
+!s108 1653005916.147000
 !s107 C:/Coding/AOC_II/Practice_2/Processador/counterR7.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/counterR7.v|
 !s101 -O0
@@ -121,7 +121,7 @@ n@mem@ram
 !i10b 1
 !s100 @I5b7OMCg^CVi^O3:X:aO0
 !s85 0
-!s108 1652990656.339000
+!s108 1653005916.062000
 !s107 C:/Coding/AOC_II/Practice_2/Processador/MemRam.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/MemRam.v|
 !s101 -O0
@@ -145,6 +145,26 @@ nmux@rto@bus
 !i10b 1
 !s100 e3FT4dPCm^_<T0VmR1RYG1
 !s85 0
+!s101 -O0
+vplaca
+I?mimX6AnD68FzW7Egm9jV3
+Ve9Z8oC?U<1LbFB:@UdEii1
+R1
+w1653000291
+8C:/Coding/AOC_II/Practice_2/Processador/placa.v
+FC:/Coding/AOC_II/Practice_2/Processador/placa.v
+L0 2
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 g]YXX3aJAellOO9j28DAc0
+!s85 0
+!s108 1653005916.228000
+!s107 C:/Coding/AOC_II/Practice_2/Processador/placa.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/placa.v|
 !s101 -O0
 vprocessador
 IiacFXPFTj1hUB>iZ9G^a?1
@@ -242,7 +262,7 @@ R5
 r1
 !s85 0
 31
-!s108 1652990656.464000
+!s108 1653005916.312000
 !s107 C:/Coding/AOC_II/Practice_2/Processador/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/testbench.v|
 !s101 -O0
