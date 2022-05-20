@@ -1,0 +1,31 @@
+module endValidoMod(
+  input [3:0]inValido,
+  input clock,
+  input [3:0] wrenCache,
+  output reg [2:0]endValido,
+  output reg [3:0]valido
+);
+initial begin
+  valido[0] = 1'd0;
+  valido[1] = 1'd1;
+  valido[2] = 1'd0;
+  valido[3] = 1'd1;
+end
+
+always@(posedge clock)begin
+  case(1'b0)
+      valido[0]: endValido <= 3'd0;
+      valido[1]: endValido <= 3'd1;
+      valido[2]: endValido <= 3'd2;
+      valido[3]: endValido <= 3'd3;
+      default:   endValido <= 3'b111;
+  endcase
+  if(wrenCache!=4'b0)begin
+    if(wrenCache[0]) valido[0] <=1'b1;
+    if(wrenCache[1]) valido[1] <=1'b1;
+    if(wrenCache[2]) valido[2] <=1'b1;
+    if(wrenCache[3]) valido[3] <=1'b1;
+  end
+end
+  
+endmodule

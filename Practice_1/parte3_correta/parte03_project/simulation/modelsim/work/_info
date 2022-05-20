@@ -1,0 +1,299 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.0sp1\AOC2\atual\parte03\simulation\modelsim
+vdirtyMod
+Z1 !s100 gNg3Am0:]e_;l<Ri5U02z2
+Z2 IA=hFKo_XzOUUFlRmhE=W>1
+Z3 V:GZ@fR1R`<R8nd<11IK=]1
+Z4 dD:\altera\13.0sp1\AOC2\atual\parte03\simulation\modelsim
+Z5 w1584481464
+Z6 8D:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v
+Z7 FD:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v|
+Z10 o-work work -O0
+Z11 ndirty@mod
+Z12 !s108 1584486113.695000
+Z13 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vendEscrita
+Z14 !s100 :5dOe3J:iGgic[37?z=>]2
+Z15 I=i48g4A3GH2lTY:0@l4Nh2
+Z16 V]6MbjeV]gh<YCUW?>e?cm0
+R4
+Z17 w1584311206
+Z18 8D:/altera/13.0sp1/AOC2/atual/parte03/endEscrita.v
+Z19 FD:/altera/13.0sp1/AOC2/atual/parte03/endEscrita.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/endEscrita.v|
+R10
+Z21 nend@escrita
+Z22 !s108 1584486113.758000
+Z23 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/endEscrita.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vendLRUMod
+Z24 !s100 AE8NRLMN:ID^f_NnQ?:o>2
+Z25 IiQgLof:3o`IZVI_L8YmU?0
+Z26 VJF^d?J6IJSi?j2g4V3SDm3
+R4
+Z27 w1584462868
+Z28 8D:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v
+Z29 FD:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v|
+R10
+Z31 nend@l@r@u@mod
+Z32 !s108 1584486113.819000
+Z33 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vendValidoMod
+Z34 !s100 9HoGj]9::`ohli>E;Gobc3
+Z35 I598^Qm6`EALGNJn7a6zMS2
+Z36 VAXfd?_1677Tz7WPIa<?iD0
+R4
+Z37 w1584478868
+Z38 8D:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v
+Z39 FD:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v|
+R10
+Z41 nend@valido@mod
+Z42 !s108 1584486113.879000
+Z43 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vhitMod
+Z44 !s100 KfUI3CRV<UGo5`83B;EJW0
+Z45 I^ameJ3W6fBk8[VMA:zK=X2
+Z46 V_eEEl`U[>MznhZh<7X[=62
+R4
+Z47 w1584474536
+Z48 8D:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v
+Z49 FD:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v|
+R10
+Z51 nhit@mod
+Z52 !s108 1584486113.944000
+Z53 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmuxDataRam
+Z54 !s100 C_WCKZef?nYFo38DPZ35<0
+Z55 IDk1iS7]T^[nn37?z;97l?0
+Z56 Vn11GNJ6L[nEFZW:T1ofdd0
+R4
+Z57 w1584482900
+Z58 8D:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v
+Z59 FD:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v|
+R10
+Z61 nmux@data@ram
+Z62 !s108 1584486114.005000
+Z63 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmuxEscrita
+Z64 !s100 iU;TU8=_W4b^k7SVj`8:92
+Z65 I1o?Oi_OCN4nPeHc>4gPOI0
+Z66 VIC_iQS8]6hT]R:lKR:6PY2
+R4
+Z67 w1584482007
+Z68 8D:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v
+Z69 FD:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v
+L0 1
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v|
+R10
+Z71 nmux@escrita
+Z72 !s108 1584486114.067000
+Z73 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparte03
+Z74 !s100 k5<6]]Cz[o>?L5k?b]jQJ2
+Z75 I6fM^IoOOFQm5>?VQjD4Fd1
+Z76 VT8FVOJ^GO1bgnn`KX]B2O1
+R4
+Z77 w1584485988
+Z78 8D:\altera\13.0sp1\AOC2\atual\parte03\parte03.v
+Z79 FD:\altera\13.0sp1\AOC2\atual\parte03\parte03.v
+L0 1
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|D:\altera\13.0sp1\AOC2\atual\parte03\parte03.v|
+R10
+Z81 !s108 1584486114.176000
+Z82 !s107 D:\altera\13.0sp1\AOC2\atual\parte03\parte03.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vramEscrita
+Z83 !s100 ]A]8=E^ABR^J4>O;0SHe51
+Z84 Ie2E>gODJK;<3bOP;Jb`j_2
+Z85 VL1k38m22?^OQYz_;XZ1>52
+R4
+Z86 w1584479039
+Z87 8D:/altera/13.0sp1/AOC2/atual/parte03/ramEscrita.v
+Z88 FD:/altera/13.0sp1/AOC2/atual/parte03/ramEscrita.v
+L0 1
+R8
+r1
+31
+Z89 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/ramEscrita.v|
+R10
+Z90 nram@escrita
+Z91 !s108 1584486114.245000
+Z92 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/ramEscrita.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vramlpm
+Z93 IlUkngh1378g^PzZCf9fGz2
+Z94 VlfB[z743C]iCB2Oino6Ro2
+R4
+Z95 w1584485978
+Z96 8D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v
+Z97 FD:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v
+L0 34
+R8
+r1
+31
+R10
+Z98 !s100 MU45:GJ>X?`AOz0j4gjQ?0
+Z99 !s108 1584486114.393000
+Z100 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v|
+Z101 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vvia0
+Z102 !s100 FIaa@DGK=[Bf_TdCHR_1W1
+Z103 IDF<6ZVRRFgnUVlo1PmAZG1
+Z104 V??2j36nAf7HOWlYWlDo9L1
+R4
+Z105 w1584477708
+Z106 8D:/altera/13.0sp1/AOC2/atual/parte03/via0.v
+Z107 FD:/altera/13.0sp1/AOC2/atual/parte03/via0.v
+L0 1
+R8
+r1
+31
+Z108 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/via0.v|
+R10
+Z109 !s108 1584486114.463000
+Z110 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/via0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vvia1
+Z111 !s100 :f78e1L`JMkdJdgBI28TX2
+Z112 IkP>j5IFnn_d8_<VPBzDjc0
+Z113 VR1GO_PIJ;`CgAmD;fI<m:1
+R4
+Z114 w1584477699
+Z115 8D:/altera/13.0sp1/AOC2/atual/parte03/via1.v
+Z116 FD:/altera/13.0sp1/AOC2/atual/parte03/via1.v
+L0 1
+R8
+r1
+31
+Z117 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/via1.v|
+R10
+Z118 !s108 1584486114.525000
+Z119 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/via1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vvia2
+Z120 !s100 XUB;0HRie:iLebMSlQUkl3
+Z121 IkB>O?LO5FiSmkSbh3Inb32
+Z122 V@jVh<mYQ:;6MnDKQ8<mRm0
+R4
+Z123 w1584477698
+Z124 8D:/altera/13.0sp1/AOC2/atual/parte03/via2.v
+Z125 FD:/altera/13.0sp1/AOC2/atual/parte03/via2.v
+L0 1
+R8
+r1
+31
+Z126 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/via2.v|
+R10
+Z127 !s108 1584486114.585000
+Z128 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/via2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vvia3
+Z129 !s100 7^@EOB]j>4T5`Aal9=X_L0
+Z130 IT82YekPM<19G5MAMl_cij1
+Z131 VDegK=ZeY30oh8L`cPSzBY0
+R4
+Z132 w1584477703
+Z133 8D:/altera/13.0sp1/AOC2/atual/parte03/via3.v
+Z134 FD:/altera/13.0sp1/AOC2/atual/parte03/via3.v
+L0 1
+R8
+r1
+31
+Z135 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/via3.v|
+R10
+!i10b 1
+!s85 0
+Z136 !s108 1584486114.652000
+Z137 !s107 D:/altera/13.0sp1/AOC2/atual/parte03/via3.v|
+!s101 -O0
+vwrenCacheMod
+!i10b 1
+Z138 !s100 V_SgoMY2Z[[E_O9bXVN[:2
+Z139 Ia_i]Dj6C:nCeR9XXVbYBi1
+Z140 VXV:]Ko6iL;E@BDZS`CQC^3
+R4
+Z141 w1584483780
+Z142 8D:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v
+Z143 FD:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1584486114.720000
+!s107 D:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v|
+Z144 !s90 -reportprogress|300|-work|work|D:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v|
+!s101 -O0
+R10
+Z145 nwren@cache@mod

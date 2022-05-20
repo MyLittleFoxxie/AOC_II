@@ -1,0 +1,272 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\OneDrive\Facool\Computação\AOC2\ere\lab\relatorio\parte03\simulation\modelsim
+vdirtyMod
+IiYH=GN_PR5LUBSb5baY^B1
+V=CaO1J46^O@9R;A@K4=I[3
+Z1 dE:\OneDrive\Facool\Computação\AOC2\ere\lab\relatorio\parte03\simulation\modelsim
+w1584733494
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 -O0
+Z5 ndirty@mod
+!i10b 1
+!s100 YBjWIJ^o8z9hGgdgI?b]D2
+!s85 0
+!s108 1599835756.986000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v|
+!s101 -O0
+vhitMod
+ISKS^HXnb45`FGCn=Rn5ZT3
+Z6 V_eEEl`U[>MznhZh<7X[=62
+R1
+Z7 w1584474536
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v
+L0 1
+R2
+r1
+31
+R3
+R4
+Z8 nhit@mod
+!i10b 1
+!s100 FC6]^jaa252U`D2HHJ<_o2
+!s85 0
+!s108 1599835757.458000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v|
+!s101 -O0
+vLRUMod
+IeTJJdeD]4T:K<D@9>`ien2
+V]UMAA`;QOgY1;edNBVTS91
+R1
+w1584827126
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@l@r@u@mod
+!i10b 1
+!s100 _a=31J4A9^R=didhI01Si3
+!s85 0
+!s108 1599835757.197000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v|
+!s101 -O0
+vmuxDataRam
+!i10b 1
+!s100 E2`7:hMBHiRZP?4nPGzE`0
+I2KA=h1XfgnXK2i_Hak_GU1
+VEh99JR=hdkC4NRi2ke`^@3
+R1
+w1599489640
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1599835757.946000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v|
+!s101 -O0
+R3
+R4
+Z9 nmux@data@ram
+vmuxEscrita
+Ihbi8Ae5WCalD7:T:dhcH>2
+V<DeMCl2jV4O6m>MPLcUn_0
+R1
+w1599595534
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v
+L0 1
+R2
+r1
+31
+R3
+R4
+Z10 nmux@escrita
+!i10b 1
+!s100 A=31;9dE74aK@EO>jZgdL3
+!s85 0
+!s108 1599835757.769000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v|
+!s101 -O0
+vparte03
+IA>[@PVKZB7jghD^4bFb<V0
+Z11 VT8FVOJ^GO1bgnn`KX]B2O1
+R1
+w1599595445
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 1GRBM<kQ<[iIN`kGjL>2B0
+!s85 0
+!s108 1599835755.969000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v|
+!s101 -O0
+vramlpm
+IjCkCaT[Fne=klzW<N2S>]2
+Z12 VlfB[z743C]iCB2Oino6Ro2
+R1
+Z13 w1584485978
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 PELGcEYniIkUf29zWcANL3
+!s85 0
+!s108 1599835755.825000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v|
+!s101 -O0
+vvalidoMod
+Ic7;G=7BO[Ih:LZBb@`AP32
+VbAL<h8XNZfkQG@h?jogil0
+R1
+w1584744499
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nvalido@mod
+!i10b 1
+!s100 OLmZOPS0Qk2g37Li^=B_<0
+!s85 0
+!s108 1599835756.821000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v|
+!s101 -O0
+vvia0
+InU9KV<iPFE_MgZ45Hg;[P1
+Z14 V??2j36nAf7HOWlYWlDo9L1
+R1
+Z15 w1584477708
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 DmMMBBBNEVY471K4iIfcP2
+!s85 0
+!s108 1599835756.093000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v|
+!s101 -O0
+vvia1
+ID@JK3e[B1ah4S[e1Uz@8C3
+Z16 VR1GO_PIJ;`CgAmD;fI<m:1
+R1
+Z17 w1584477699
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Ak>AYQOK`2AgBIh`Jf54Q0
+!s85 0
+!s108 1599835756.259000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v|
+!s101 -O0
+vvia2
+I8zO3^MXdGZOPJM:KBndeS1
+Z18 V@jVh<mYQ:;6MnDKQ8<mRm0
+R1
+Z19 w1584477698
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 gN@JDZgOL?aId7?S5CWQD1
+!s85 0
+!s108 1599835756.422000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v|
+!s101 -O0
+vvia3
+IJf=XY7;B7:U?WG>b;3bW83
+Z20 VDegK=ZeY30oh8L`cPSzBY0
+R1
+Z21 w1584477703
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 D<fUY:7J21fKHieo=Ji_j3
+!s85 0
+!s108 1599835756.613000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v|
+!s101 -O0
+vwrenCacheMod
+I;Z1PRj0ZRYOR5Kh<9Q:XH1
+VK20C=bkf02=XcX[e4o5S;2
+R1
+w1599597166
+8E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v
+FE:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v
+L0 1
+R2
+r1
+31
+R3
+R4
+Z22 nwren@cache@mod
+!i10b 1
+!s100 8c6^;TQBg?8AIzXzjkojL2
+!s85 0
+!s108 1599835757.636000
+!s107 E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03|E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v|
+!s101 -O0

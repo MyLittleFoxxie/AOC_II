@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.0sp1\AOC2\parte03\simulation\modelsim
+vparte03
+!i10b 1
+!s100 I6`RB]Q3[X5hoGcbCobEA0
+IgocVo@o4;UoTmaUifdMoF3
+Z1 VT8FVOJ^GO1bgnn`KX]B2O1
+Z2 dD:\altera\13.0sp1\AOC2\parte03\simulation\modelsim
+w1584745732
+8parte03.vo
+Fparte03.vo
+L0 31
+Z3 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1584746297.587000
+!s107 parte03.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|parte03.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

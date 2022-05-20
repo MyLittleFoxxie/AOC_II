@@ -1,0 +1,27 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/processador.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/regn.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/upcount.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/dec3to8.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/ULA.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/MemRam.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/toplevel.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/regnIR.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/counterR7.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/regnW.v}
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/TLB.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador {C:/Users/HenriqueVGA/Downloads/AOC2/EnhancedProcessor-main/EnhancedProcessor-main/Processador/simula.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  simula
+
+add wave *
+view structure
+view signals
+run -all

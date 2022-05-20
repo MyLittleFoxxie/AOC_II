@@ -1,0 +1,68 @@
+# Compile of dirtyMod.v was successful.
+# Compile of endLRUMod.v was successful.
+# Compile of endValidoMod.v was successful.
+# Compile of hitMod.v was successful.
+# Compile of muxDataRam.v was successful.
+# Compile of muxEscrita.v was successful.
+# Compile of parte03.v was successful.
+# Compile of ramlpm.v was successful.
+# Compile of ramlpm_bb.v was successful.
+# Compile of via0.v was successful.
+# Compile of via1.v was successful.
+# Compile of via2.v was successful.
+# Compile of via3.v was successful.
+# Compile of wrenCacheMod.v was successful.
+# Compile of novoLRU.v was successful.
+# 15 compiles, 0 failed with no errors. 
+# Compile of dirtyMod.v was successful.
+# Compile of endLRUMod.v was successful.
+# Compile of endValidoMod.v was successful.
+# Compile of hitMod.v was successful.
+# Compile of muxDataRam.v was successful.
+# Compile of muxEscrita.v was successful.
+# Compile of parte03.v was successful.
+# Compile of ramlpm.v was successful.
+# Compile of ramlpm_bb.v was successful.
+# Compile of via0.v was successful.
+# Compile of via1.v was successful.
+# Compile of via2.v was successful.
+# Compile of via3.v was successful.
+# Compile of wrenCacheMod.v was successful.
+# Compile of novoLRU.v was successful.
+# Compile of muxSaidaCache.v failed with 1 errors.
+# 16 compiles, 1 failed with 1 error. 
+# Compile of dirtyMod.v was successful.
+# Compile of endLRUMod.v was successful.
+# Compile of endValidoMod.v was successful.
+# Compile of hitMod.v was successful.
+# Compile of muxDataRam.v was successful.
+# Compile of muxEscrita.v was successful.
+# Compile of parte03.v was successful.
+# Compile of ramlpm.v was successful.
+# Compile of ramlpm_bb.v was successful.
+# Compile of via0.v was successful.
+# Compile of via1.v was successful.
+# Compile of via2.v was successful.
+# Compile of via3.v was successful.
+# Compile of wrenCacheMod.v was successful.
+# Compile of novoLRU.v was successful.
+# Compile of muxSaidaCache.v was successful.
+# 16 compiles, 0 failed with no errors. 
+# Compile of dirtyMod.v was successful.
+# Compile of endLRUMod.v was successful.
+# Compile of endValidoMod.v was successful.
+# Compile of hitMod.v was successful.
+# Compile of muxDataRam.v was successful.
+# Compile of muxEscrita.v was successful.
+# Compile of parte03.v was successful.
+# Compile of ramlpm.v was successful.
+# Compile of ramlpm_bb.v was successful.
+# Compile of via0.v was successful.
+# Compile of via1.v was successful.
+# Compile of via2.v was successful.
+# Compile of via3.v was successful.
+# Compile of wrenCacheMod.v was successful.
+# Compile of novoLRU.v was successful.
+# Compile of muxSaidaCache.v was successful.
+# 16 compiles, 0 failed with no errors. 
+vsim +altera -L altera_mf_ver -do parte03_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte03

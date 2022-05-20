@@ -1,0 +1,23 @@
+module muxSaidaRam(
+  input [7:0] q0,
+  input [7:0] q1,
+  input [7:0] q2,
+  input [7:0] q3,
+  
+  input [3:0] hit,  
+  input clock,
+  output reg [7:0] qCache
+);
+
+always@(posedge clock)begin
+  case(endHit)
+    4'b0001:     qCache <= q0;
+    4'b0010:     qCache <= q1;
+    4'b0100:     qCache <= q2;
+    4'b1000:     qCache <= q3;
+    default:     qCache <= 8'd0;
+  endcase
+    
+end
+  
+endmodule

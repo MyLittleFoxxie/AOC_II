@@ -1,0 +1,212 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte03_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parte03
+# 
+# Top level modules:
+# 	parte03
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via0
+# 
+# Top level modules:
+# 	via0
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via1
+# 
+# Top level modules:
+# 	via1
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via2
+# 
+# Top level modules:
+# 	via2
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via3
+# 
+# Top level modules:
+# 	via3
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module validoMod
+# 
+# Top level modules:
+# 	validoMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dirtyMod
+# 
+# Top level modules:
+# 	dirtyMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LRUMod
+# 
+# Top level modules:
+# 	LRUMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hitMod
+# 
+# Top level modules:
+# 	hitMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wrenCacheMod
+# 
+# Top level modules:
+# 	wrenCacheMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxEscrita
+# 
+# Top level modules:
+# 	muxEscrita
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxDataRam
+# 
+# Top level modules:
+# 	muxDataRam
+# 
+vsim +altera -L altera_mf_ver -do parte03_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte03
+# vsim +altera -L altera_mf_ver -do parte03_run_msim_rtl_verilog.do -l msim_transcript -gui work.parte03 
+# Loading work.parte03
+# Loading work.ramlpm
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.via0
+# Loading work.via1
+# Loading work.via2
+# Loading work.via3
+# Loading work.validoMod
+# Loading work.dirtyMod
+# Loading work.LRUMod
+# Loading work.hitMod
+# Loading work.wrenCacheMod
+# Loading work.muxEscrita
+# Loading work.muxDataRam
+# ** Warning: (vsim-3015) E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v(47): [PCDPC] - Port size (1 or 1) does not match connection size (4) for port 'wren'. The port definition is at: E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v(4).
+# 
+#         Region: /parte03/muxEscritaModule
+# ** Warning: (vsim-3015) E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v(47): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'hit'. The port definition is at: E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v(5).
+# 
+#         Region: /parte03/muxEscritaModule
+# do parte03_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/parte03.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module parte03
+# 
+# Top level modules:
+# 	parte03
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via0.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via0
+# 
+# Top level modules:
+# 	via0
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via1
+# 
+# Top level modules:
+# 	via1
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via2
+# 
+# Top level modules:
+# 	via2
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/via3.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module via3
+# 
+# Top level modules:
+# 	via3
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/validomod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module validoMod
+# 
+# Top level modules:
+# 	validoMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/dirtymod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dirtyMod
+# 
+# Top level modules:
+# 	dirtyMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/lrumod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LRUMod
+# 
+# Top level modules:
+# 	LRUMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/hitmod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hitMod
+# 
+# Top level modules:
+# 	hitMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/wrencachemod.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module wrenCacheMod
+# 
+# Top level modules:
+# 	wrenCacheMod
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxescrita.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxEscrita
+# 
+# Top level modules:
+# 	muxEscrita
+# vlog -vlog01compat -work work +incdir+E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03 {E:/OneDrive/Facool/Computação/AOC2/ere/lab/relatorio/parte03/muxdataram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxDataRam
+# 
+# Top level modules:
+# 	muxDataRam
+# 
+do simulacao.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# 1
+# 1
+# 1
+add wave -position 6  sim:/parte03/qRam
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: parte03.ram.altsyncram_component
+# Load canceled

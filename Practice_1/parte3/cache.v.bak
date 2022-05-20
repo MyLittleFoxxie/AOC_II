@@ -1,0 +1,116 @@
+module cache(address, clock, data, wren, qram, out, raddress, dataram, wrenram, index);
+	
+	input clock;
+	input [7:0] address, qram;
+	input [3:0] data;
+	input [1:0] index;
+	input wren;
+	output reg [7:0] out;
+	output reg [7:0] raddress, dataram;
+	output reg wrenram;
+	reg hit;
+	reg [3:0] temp;
+	integer i, j;
+	reg [8:0]cache[7:0];						
+								
+	//Bits cache	
+	// cache[0] = validade
+	// cache[1] = dirty
+	// cache[2] = lru
+	// cache[3:5] = tag
+	// cache[6:8] = data */
+
+	initial begin //Inicialização
+			cache[0] = 9'b000100001;
+			cache[1] = 9'b000000010;
+			cache[2] = 9'b101000011;
+			cache[3] = 9'b000000100;
+			cache[4] = 9'b110101101;
+			cache[5] = 9'b101111110;
+			cache[6] = 9'b000000000;
+			cache[7] = 9'b000000000;
+	end
+	
+	always @(posedge clock) begin
+		hit = 0;
+
+		//escrita
+		if (wren == 1'b1) begin
+			for (i=index; i<=index + 2'd1; i = i + 1) begin
+				if(cache[i][3:5] == address) begin // hit
+					hit = 1;
+					cache[i][3:0] = data; // recebe o dado 
+					cache[i][15] = 1'b1; // valid
+					cache[i][14] = 1'b1; // dirty
+					for(j=0; j<=3; j = j + 1)begin // atualiza LRU
+						if(cache[j][13:12] != 2'b11) begin
+							cache[j][13:12] = cache[j][13:12] + 2'b01;
+						end
+					end
+					cache[i][13:12] = 2'b00;//Atualiza LRU do novo bloco
+				end
+			end//endfor possivel hit
+			if (hit == 0) begin // miss
+				for (i = 0; i <= 3; i = i + 1) begin
+					if(cache[i][13:12] == 2'b11) begin // Mais antigo
+						if(cache[i][15] == 1'b1 && cache[i][14] == 1'b1) begin //Write-back
+							raddress = cache[i][11:4];
+							dataram = cache[i][3:0];
+							wrenram = 1;
+						end
+						cache[i][3:0] = data;
+						cache[i][11:4] = address;
+						cache[i][13:12] = 2'b00; // lru
+						cache[i][14] = 1'b1; // dirty
+						cache[i][15] = 1'b1; // valid
+
+					end
+					else begin
+						cache[i][13:12] = cache[i][13:12] + 2'b01; // resto da lru
+					end
+				end //endfor
+			end //endif miss
+		end //endif escrita
+		else begin // leitura
+			for(i = 0; i <= 3; i = i + 1) begin
+				if(cache[i][11:4] == address && cache[i][15] == 1) begin // hit
+					hit = 1;
+					out = cache[i][3:0]; // dar o dado
+					for(j = 0; j <= 3; j = j + 1)begin // atualizar LRU
+						if(cache[j][13:12] != 2'b11) begin
+							cache[j][13:12] = cache[j][13:12] + 2'b01;
+						end
+					end
+					cache[i][13:12] = 2'b00;
+				end //endif hit
+			end //endfor
+			if (hit == 0) begin // miss
+				raddress = address;
+				dataram = data;
+				wrenram = 0; // lendo o dado da memoria
+				for (i = 0; i <= 3; i = i + 1) begin
+					if(cache[i][13:12] == 2'b11) begin
+						//temp[3:0] = qram[3:0];
+						if(cache[i][15] == 1'b1 && cache[i][14] == 1'b1) begin // writeback 
+							raddress = cache[i][11:4];
+							dataram = cache[i][3:0];
+							wrenram = 1;
+						end
+						//Pega os dados *** ?Erro? ***
+						out = qram[3:0];
+						cache[i][3:0] = qram[3:0]; // atualizando a L1
+						cache[i][11:4] = address;
+						cache[i][13:12] = 2'b00; // lru
+						cache[i][14] = 0; // dirty
+						cache[i][15] = 1; // valid
+
+					end
+					else begin
+						cache[i][13:12] = cache[i][13:12] + 2'b01; // resto da lru
+					end
+				end //endfor
+			end //endif miss
+		end //endif leitura
+	end
+endmodule
+

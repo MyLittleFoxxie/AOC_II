@@ -1,0 +1,312 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Coding\AOC_II\Practice_2\Processador\simulation\modelsim
+vcounter
+IR7K`L86ijOC=3_0_3MU7a2
+V7o1lmA`f2Xd8AE5TXj7Gb1
+Z1 dC:\Coding\AOC_II\Practice_2\Processador\simulation\modelsim
+Z2 w1652990418
+Z3 8C:/Coding/AOC_II/Practice_2/Processador/main.v
+Z4 FC:/Coding/AOC_II/Practice_2/Processador/main.v
+L0 310
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1652990656.182000
+Z7 !s107 C:/Coding/AOC_II/Practice_2/Processador/main.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/main.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador -O0
+!i10b 1
+!s100 bUeP0df0L4>54beL@^Ti[2
+!s85 0
+!s101 -O0
+vcounterR7
+ILgcWjK;IS90QOjZ@RfK9E1
+VIlZD3XIi>NCND43z4ez`c3
+R1
+w1652750668
+8C:/Coding/AOC_II/Practice_2/Processador/counterR7.v
+FC:/Coding/AOC_II/Practice_2/Processador/counterR7.v
+L0 39
+R5
+r1
+31
+R9
+R10
+ncounter@r7
+!i10b 1
+!s100 K[AnnVz=2F?W1I?`ZRDN20
+!s85 0
+!s108 1652990656.401000
+!s107 C:/Coding/AOC_II/Practice_2/Processador/counterR7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/counterR7.v|
+!s101 -O0
+vdec3to8
+IMM`bhZcd7I5Paz0mOjk9=0
+V3MQ7SOW6nNK?k^ze_@^7O1
+R1
+R2
+R3
+R4
+L0 338
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 d1m?T0:WQPN]11:l789860
+!s85 0
+!s101 -O0
+vdisplay
+IJmHTd^eOf6GnhDc>B1@[c1
+VPC<dh>NHIIAa:=Qo2ZmUI3
+R1
+R2
+R3
+R4
+L0 34
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 jK@VW8ZLoX4af8:FZ8_ld3
+!s85 0
+!s101 -O0
+vmain
+I0bSXho_zan6F2TS57V^=X0
+V87JTk6aeAa7n60bSXLh1M2
+R1
+R2
+R3
+R4
+L0 2
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 ]l:bAF9UT>H`g^OAURlZK3
+!s85 0
+!s101 -O0
+vMemRam
+I<j]NQbl>9f]dl:R]2;46h3
+V7<lfbLQUg1`A:=nkU<R<80
+R1
+w1652793868
+8C:/Coding/AOC_II/Practice_2/Processador/MemRam.v
+FC:/Coding/AOC_II/Practice_2/Processador/MemRam.v
+L0 39
+R5
+r1
+31
+R9
+R10
+n@mem@ram
+!i10b 1
+!s100 @I5b7OMCg^CVi^O3:X:aO0
+!s85 0
+!s108 1652990656.339000
+!s107 C:/Coding/AOC_II/Practice_2/Processador/MemRam.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/MemRam.v|
+!s101 -O0
+vmuxRtoBus
+I;Q?l`F^<mSW^1E4OjgebZ3
+V^RELVag3WMzFgF80A25GP2
+R1
+R2
+R3
+R4
+L0 364
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+nmux@rto@bus
+!i10b 1
+!s100 e3FT4dPCm^_<T0VmR1RYG1
+!s85 0
+!s101 -O0
+vprocessador
+IiacFXPFTj1hUB>iZ9G^a?1
+V7NoQa9<2HTACk<ZhE8V9f3
+R1
+R2
+R3
+R4
+L0 56
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 hO`S5IE:;Al9=V`CZZQ6C2
+!s85 0
+!s101 -O0
+vregn
+I4PCnUNc]@6IfzcPW`M[Y?3
+VUc6I3VM5DDQ[zOJ4a2HfK0
+R1
+R2
+R3
+R4
+L0 391
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 PkA3d>J6KZZRn;R:B`bIj3
+!s85 0
+!s101 -O0
+vregnIR
+I@e:72n_eM^cLLLH@ozZZE1
+V3f`DGWG:C?N6T[hN_]B3P0
+R1
+R2
+R3
+R4
+L0 409
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+nregn@i@r
+!i10b 1
+!s100 T:5lhbChzc7KmD5jHd2Gl0
+!s85 0
+!s101 -O0
+vregnW
+I61Ozaf_9aLHa0>dzdZPb]3
+VUeQLQ9zUzHDKFCk`I7m9P1
+R1
+R2
+R3
+R4
+L0 422
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+nregn@w
+!i10b 1
+!s100 2a?F_aW56EPe8>b;T>f>d1
+!s85 0
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 HE2<BHY;m8a>a82]LUAj:3
+I83HKNgKocHoPL=TS`8d[k3
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1652990161
+8C:/Coding/AOC_II/Practice_2/Processador/testbench.v
+FC:/Coding/AOC_II/Practice_2/Processador/testbench.v
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1652990656.464000
+!s107 C:/Coding/AOC_II/Practice_2/Processador/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Coding/AOC_II/Practice_2/Processador|C:/Coding/AOC_II/Practice_2/Processador/testbench.v|
+!s101 -O0
+R9
+R10
+vTLB
+Ihcm>ak?j84c`]<ZfFih>;0
+Vi1zU8AP@_8Lnbj8lNS5GJ0
+R1
+R2
+R3
+R4
+L0 434
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@t@l@b
+!i10b 1
+!s100 [9j6XdeHf;=o:7?1>n2<i1
+!s85 0
+!s101 -O0
+vULA
+IIBAe7g5o8b]3<UcI@JjKF3
+VId1_KVYFa4[ngzAA2ob=K3
+R1
+R2
+R3
+R4
+L0 540
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+n@u@l@a
+!i10b 1
+!s100 fczM2;lW=C:U9hH@4k66;0
+!s85 0
+!s101 -O0
+vupcount
+I8EaJG[h6XU4aMSDBMN6=?3
+V4h_41_G=[Hl:IHIc6hbj12
+R1
+R2
+R3
+R4
+L0 613
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 5E?o<>]inX3`oWOB>I[HG2
+!s85 0
+!s101 -O0

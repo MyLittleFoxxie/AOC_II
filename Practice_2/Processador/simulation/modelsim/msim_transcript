@@ -1,0 +1,393 @@
+# Reading D:/Quartus_II/modelsim_ase/tcl/vsim/pref.tcl 
+# do processador_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Quartus_II\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Quartus_II\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/main.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module main
+# -- Compiling module display
+# -- Compiling module processador
+# -- Compiling module counter
+# -- Compiling module dec3to8
+# -- Compiling module muxRtoBus
+# -- Compiling module regn
+# -- Compiling module regnIR
+# -- Compiling module regnW
+# -- Compiling module TLB
+# -- Compiling module ULA
+# -- Compiling module upcount
+# 
+# Top level modules:
+# 	main
+# 	display
+# 	counter
+# 	muxRtoBus
+# vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/MemRam.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MemRam
+# 
+# Top level modules:
+# 	MemRam
+# vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/counterR7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counterR7
+# 
+# Top level modules:
+# 	counterR7
+# 
+# vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench 
+# Loading work.testbench
+# Loading work.main
+# Loading work.TLB
+# Loading work.processador
+# Loading work.upcount
+# Loading work.dec3to8
+# Loading work.regn
+# Loading work.counterR7
+# Loading lpm_ver.lpm_counter
+# Loading work.regnIR
+# Loading work.regnW
+# Loading work.ULA
+# Loading work.MemRam
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) C:/Coding/AOC_II/Practice_2/Processador/main.v(29): [PCDPC] - Port size (7 or 7) does not match connection size (16) for port 'address'. The port definition is at: C:/Coding/AOC_II/Practice_2/Processador/MemRam.v(40).
+# 
+#         Region: /testbench/main/memRam
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# __________________________________________________
+#     endVir =     0
+#     DIN = xxxxxxxxxxxxxxxx, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     x     x     x     x     x     x     x     0
+#     STATEMENT 1 :: time is 0
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     1
+#     DIN = xxxxxxxxxxxxxxxx, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     0     0     0     0     0     0     1
+#     STATEMENT 1 :: time is 20
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     2
+#     DIN = 0000000000000100, DataIN =     2
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     0     0     0     0     0     0     2
+#     STATEMENT 1 :: time is 140
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     3
+#     DIN = 0000000000010100, DataIN =     3
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     3     0     0     0     0     0     3
+#     STATEMENT 1 :: time is 260
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     4
+#     DIN = 0000000000010101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     5     0     0     0     0     0     4
+#     STATEMENT 1 :: time is 460
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     5
+#     DIN = 0000000000100100, DataIN =     6
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     5     6     0     0     0     0     5
+#     STATEMENT 1 :: time is 580
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     6
+#     DIN = 0000000010100110, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     5     1     0     0     0     0     6
+#     STATEMENT 1 :: time is 780
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     7
+#     DIN = 0000000100110011, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     2     5     1     1     0     0     0     7
+#     STATEMENT 1 :: time is 900
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     8
+#     DIN = 0000000110000101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3     5     1     1     0     0     0     8
+#     STATEMENT 1 :: time is 1100
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =     9
+#     DIN = 0000000000010111, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3     7     1     1     0     0     0     9
+#     STATEMENT 1 :: time is 1300
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    10
+#     DIN = 0000000000010110, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3     4     1     1     0     0     0    10
+#     STATEMENT 1 :: time is 1500
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    11
+#     DIN = 0000000110010101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3     5     1     1     0     0     0    11
+#     STATEMENT 1 :: time is 1700
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    12
+#     DIN = 0000000110011001, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3    10     1     1     0     0     0    12
+#     STATEMENT 1 :: time is 1900
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    13
+#     DIN = 0000000110011010, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     3     5     1     1     0     0     0    13
+#     STATEMENT 1 :: time is 2100
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    14
+#     DIN = 0000000000000100, DataIN =     0
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     1     1     0     0     0    14
+#     STATEMENT 1 :: time is 2220
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    15
+#     DIN = 0000000010001000, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     1     5     1     1     0     0     0    15
+#     STATEMENT 1 :: time is 2420
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    16
+#     DIN = 0000000010011000, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     1     0     1     1     0     0     0    16
+#     STATEMENT 1 :: time is 2620
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    17
+#     DIN = 0000000000110100, DataIN =     3
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     1     0     1     3     0     0     0    17
+#     STATEMENT 1 :: time is 2740
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    18
+#     DIN = 0000000000010100, DataIN =     5
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     1     5     1     3     0     0     0    18
+#     STATEMENT 1 :: time is 2860
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    19
+#     DIN = 0000000110000101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     4     5     1     3     0     0     0    19
+#     STATEMENT 1 :: time is 3060
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    20
+#     DIN = 0000000000000100, DataIN =     0
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     1     3     0     0     0    20
+#     STATEMENT 1 :: time is 3180
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    21
+#     DIN = 0000000110100000, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     4     3     0     0     0    21
+#     STATEMENT 1 :: time is 3420
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    22
+#     DIN = 0000000110100101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     7     3     0     0     0    22
+#     STATEMENT 1 :: time is 3620
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    23
+#     DIN = 0000000000100001, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     7     3     0     0     0    23
+#     STATEMENT 1 :: time is 3940
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    24
+#     DIN = 0000000000000000, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     7     5     7     3     0     0     0    24
+#     STATEMENT 1 :: time is 4180
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    25
+#     DIN = 0000000110000110, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     4     5     7     3     0     0     0    25
+#     STATEMENT 1 :: time is 4380
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    26
+#     DIN = 0000000000000100, DataIN =     0
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     7     3     0     0     0    26
+#     STATEMENT 1 :: time is 4500
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    27
+#     DIN = 0000000000000101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     7     3     0     0     0    27
+#     STATEMENT 1 :: time is 4700
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    28
+#     DIN = 0000000100000010, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     5     7     3     0     0     0    28
+#     STATEMENT 1 :: time is 4820
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    29
+#     DIN = 0000000110010110, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     0     2     7     3     0     0     0    29
+#     STATEMENT 1 :: time is 5020
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    30
+#     DIN = 0000000100000010, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     7     2     7     3     0     0     0    30
+#     STATEMENT 1 :: time is 5140
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    31
+#     DIN = 0000000010000101, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     9     2     7     3     0     0     0    31
+#     STATEMENT 1 :: time is 5340
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    32
+#     DIN = xxxxxxxxxxxxxxxx, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     9     2     7     3     0     0     0    32
+#     STATEMENT 1 :: time is 5660
+# 
+# __________________________________________________
+# 
+# __________________________________________________
+#     endVir =    33
+#     DIN = xxxxxxxxxxxxxxxx, DataIN =     x
+#     R0    R1    R2    R3    R4    R5    R6    R7
+#     9     2     7     3     0     0     0    33
+#     STATEMENT 1 :: time is 5980
+# 
+# __________________________________________________
+# ** Note: $finish    : C:/Coding/AOC_II/Practice_2/Processador/testbench.v(33)
+#    Time: 6102 ps  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Coding/AOC_II/Practice_2/Processador/testbench.v line 33
+# Simulation Breakpoint: 1
+# Break in Module testbench at C:/Coding/AOC_II/Practice_2/Processador/testbench.v line 33
+# MACRO ./processador_run_msim_rtl_verilog.do PAUSED at line 19

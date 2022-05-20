@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock'
+Slack : -5.743
+TNS   : -345.600
+
+Type  : Slow Model Setup 'LRUMod:LRUModule|inLRU0[0]'
+Slack : -5.005
+TNS   : -18.917
+
+Type  : Slow Model Setup 'LRUMod:LRUModule|lruBit[0]'
+Slack : -1.181
+TNS   : -12.918
+
+Type  : Slow Model Hold 'clock'
+Slack : -3.508
+TNS   : -17.440
+
+Type  : Slow Model Hold 'LRUMod:LRUModule|inLRU0[0]'
+Slack : -0.500
+TNS   : -1.493
+
+Type  : Slow Model Hold 'LRUMod:LRUModule|lruBit[0]'
+Slack : -0.453
+TNS   : -4.105
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -1.627
+TNS   : -178.254
+
+Type  : Slow Model Minimum Pulse Width 'LRUMod:LRUModule|inLRU0[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'LRUMod:LRUModule|lruBit[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'LRUMod:LRUModule|inLRU0[0]'
+Slack : -2.347
+TNS   : -8.930
+
+Type  : Fast Model Setup 'clock'
+Slack : -2.075
+TNS   : -128.601
+
+Type  : Fast Model Setup 'LRUMod:LRUModule|lruBit[0]'
+Slack : -0.409
+TNS   : -3.104
+
+Type  : Fast Model Hold 'clock'
+Slack : -1.988
+TNS   : -17.454
+
+Type  : Fast Model Hold 'LRUMod:LRUModule|lruBit[0]'
+Slack : -0.461
+TNS   : -3.979
+
+Type  : Fast Model Hold 'LRUMod:LRUModule|inLRU0[0]'
+Slack : -0.218
+TNS   : -0.633
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -1.627
+TNS   : -178.254
+
+Type  : Fast Model Minimum Pulse Width 'LRUMod:LRUModule|inLRU0[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'LRUMod:LRUModule|lruBit[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

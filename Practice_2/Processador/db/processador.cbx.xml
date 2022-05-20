@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="processador">
+		<CBX_INST_ENTRY INSTANCE_NAME="|placa|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_j6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|placa|main:main|MemRam:memRam|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_u3i1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|placa|main:main|processador:proc|counterR7:modReg7|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_3pj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

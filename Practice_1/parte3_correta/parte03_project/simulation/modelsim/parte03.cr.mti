@@ -1,0 +1,106 @@
+D:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/muxDataRam.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module muxDataRam
+
+Top level modules:
+	muxDataRam
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/novoLRU.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/novoLRU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module novoLRU
+
+Top level modules:
+	novoLRU
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/muxEscrita.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module muxEscrita
+
+Top level modules:
+	muxEscrita
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/parte03.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/parte03.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module parte03
+
+Top level modules:
+	parte03
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/via0.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/via0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module via0
+
+Top level modules:
+	via0
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/via1.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/via1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module via1
+
+Top level modules:
+	via1
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/via2.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/via2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module via2
+
+Top level modules:
+	via2
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/endLRUMod.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module endLRUMod
+
+Top level modules:
+	endLRUMod
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/via3.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/via3.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module via3
+
+Top level modules:
+	via3
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm_bb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ramlpm
+
+Top level modules:
+	ramlpm
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/dirtyMod.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module dirtyMod
+
+Top level modules:
+	dirtyMod
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/hitMod.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module hitMod
+
+Top level modules:
+	hitMod
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/endValidoMod.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module endValidoMod
+
+Top level modules:
+	endValidoMod
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/wrenCacheMod.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module wrenCacheMod
+
+Top level modules:
+	wrenCacheMod
+
+} {} {}} D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm.v {1 {vlog -work work D:/altera/13.0sp1/AOC2/atual/parte03/ramlpm.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ramlpm
+
+Top level modules:
+	ramlpm
+
+} {} {}}

@@ -1,0 +1,54 @@
+# Reading D:/Quartus_II/modelsim_ase/tcl/vsim/pref.tcl 
+# do parte1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\Quartus_II\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\Quartus_II\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus_II/Projects/parte1 {D:/Quartus_II/Projects/parte1/placa_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decodificador
+# -- Compiling module memoria
+# -- Compiling module placa_tb
+# 
+# Top level modules:
+# 	placa_tb
+# vlog -vlog01compat -work work +incdir+D:/Quartus_II/Projects/parte1 {D:/Quartus_II/Projects/parte1/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# 
+# vlog -vlog01compat -work work +incdir+D:/Quartus_II/Projects/parte1 {D:/Quartus_II/Projects/parte1/simulacao_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module simulacao_tb
+# 
+# Top level modules:
+# 	simulacao_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  simulacao_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps simulacao_tb 
+# Loading work.simulacao_tb
+# Loading work.ramlpm
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) D:/Quartus_II/Projects/parte1/simulacao_tb.v(15): [PCDPC] - Port size (5 or 5) does not match connection size (6) for port 'address'. The port definition is at: D:/Quartus_II/Projects/parte1/ramlpm.v(40).
+# 
+#         Region: /simulacao_tb/m
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module simulacao_tb at D:/Quartus_II/Projects/parte1/simulacao_tb.v line 62
+# Simulation Breakpoint: Break in Module simulacao_tb at D:/Quartus_II/Projects/parte1/simulacao_tb.v line 62
+# MACRO ./parte1_run_msim_rtl_verilog.do PAUSED at line 18
