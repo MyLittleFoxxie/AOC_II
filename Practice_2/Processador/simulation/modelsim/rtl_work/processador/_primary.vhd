@@ -16,7 +16,7 @@ entity processador is
         ADDR            : out    vl_logic_vector(15 downto 0);
         DOUT            : out    vl_logic_vector(15 downto 0);
         \R7\            : out    vl_logic_vector;
-        Tstep_Q         : out    vl_logic_vector(2 downto 0);
+        step            : out    vl_logic_vector(2 downto 0);
         DataMem         : in     vl_logic_vector(15 downto 0);
         R0              : out    vl_logic_vector;
         R1              : out    vl_logic_vector;

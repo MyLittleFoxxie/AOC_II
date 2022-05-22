@@ -11,7 +11,8 @@ entity placa is
         HEX6            : out    vl_logic_vector(6 downto 0);
         HEX7            : out    vl_logic_vector(6 downto 0);
         SW              : in     vl_logic_vector(17 downto 0);
-        KEY             : in     vl_logic_vector(8 downto 0);
-        LEDG0           : out    vl_logic_vector(8 downto 0)
+        KEY             : in     vl_logic_vector(0 downto 0);
+        LEDG            : out    vl_logic_vector(8 downto 0);
+        LEDR            : out    vl_logic_vector(17 downto 0)
     );
 end placa;

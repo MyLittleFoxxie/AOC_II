@@ -8,6 +8,7 @@ vmap work rtl_work
 vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/main.v}
 vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/MemRam.v}
 vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/counterR7.v}
+vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/placa.v}
 
 vlog -vlog01compat -work work +incdir+C:/Coding/AOC_II/Practice_2/Processador {C:/Coding/AOC_II/Practice_2/Processador/testbench.v}
 

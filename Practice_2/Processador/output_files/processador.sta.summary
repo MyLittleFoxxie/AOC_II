@@ -3,48 +3,48 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'main:main|processador:proc|upcount:Tstep|Q[0]'
-Slack : -3.667
-TNS   : -54.022
+Slack : -5.955
+TNS   : -40.560
 
 Type  : Slow Model Setup 'KEY[0]'
 Slack : -1.914
-TNS   : -41.282
+TNS   : -20.946
 
 Type  : Slow Model Hold 'KEY[0]'
-Slack : -3.657
-TNS   : -81.762
+Slack : -5.308
+TNS   : -72.671
 
 Type  : Slow Model Hold 'main:main|processador:proc|upcount:Tstep|Q[0]'
-Slack : -2.040
-TNS   : -28.804
+Slack : -1.606
+TNS   : -10.544
 
 Type  : Slow Model Minimum Pulse Width 'KEY[0]'
 Slack : -2.000
-TNS   : -183.222
+TNS   : -103.222
 
 Type  : Slow Model Minimum Pulse Width 'main:main|processador:proc|upcount:Tstep|Q[0]'
 Slack : 0.500
 TNS   : 0.000
 
 Type  : Fast Model Setup 'main:main|processador:proc|upcount:Tstep|Q[0]'
-Slack : -1.656
-TNS   : -24.178
+Slack : -3.078
+TNS   : -21.043
 
 Type  : Fast Model Setup 'KEY[0]'
 Slack : -1.460
-TNS   : -24.319
+TNS   : -10.220
 
 Type  : Fast Model Hold 'KEY[0]'
-Slack : -1.895
-TNS   : -42.883
+Slack : -2.658
+TNS   : -37.959
 
 Type  : Fast Model Hold 'main:main|processador:proc|upcount:Tstep|Q[0]'
-Slack : -1.195
-TNS   : -17.550
+Slack : -1.015
+TNS   : -6.691
 
 Type  : Fast Model Minimum Pulse Width 'KEY[0]'
 Slack : -2.000
-TNS   : -183.222
+TNS   : -103.222
 
 Type  : Fast Model Minimum Pulse Width 'main:main|processador:proc|upcount:Tstep|Q[0]'
 Slack : 0.500

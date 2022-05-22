@@ -13,6 +13,6 @@ entity main is
         R5              : out    vl_logic_vector(15 downto 0);
         R6              : out    vl_logic_vector(15 downto 0);
         R7              : out    vl_logic_vector(15 downto 0);
-        Tstep_Q         : out    vl_logic_vector(2 downto 0)
+        step            : out    vl_logic_vector(2 downto 0)
     );
 end main;
